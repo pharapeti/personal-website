@@ -16,8 +16,8 @@ function Sidepanel() {
       <p>
         I am a passionate full-time university student studying a Bachelors of Engineering in Software and a 
         Bachelors of Science in Applied Physics at the University of Technology in Sydney, Australia. I also work 
-        full-time as a Full Stack Software Developer at an educational B2B (business to business) company. Working 
-        as a full-stack developer allows me to tackle technical and ethical issues regarding the creation of 
+        full-time as a full stack Software Developer at an educational B2B (business to business) company. Working 
+        as a full stack developer allows me to tackle technical and ethical issues regarding the creation of 
         user-facing software and changes to all aspects a given product.
       </p>
 

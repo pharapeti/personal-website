@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import reportWebVitals from './reportWebVitals';
 import * as Icon from 'react-bootstrap-icons';
+import registerServiceWorker from './registerServiceWorker';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -15,9 +15,9 @@ ReactDOM.render(
   <React.StrictMode>
     <div className="Container">
       <div className="HomepageIcons" style={{display: 'flex'}}>
-        <a className="ProfileLink" href="https://github.com/pharapeti"><Icon.Github/></a>
-        <a className="ProfileLink" href="https://www.linkedin.com/in/patrice-harapeti-653288152/"><Icon.Linkedin/></a>
-        <a className="ProfileLink" href="mailto:patrice.harapeti@gmail.com"><Icon.Mailbox/></a>
+        <a className="ProfileLink" target="_blank" rel="noreferrer" href="https://github.com/pharapeti"><Icon.Github/></a>
+        <a className="ProfileLink" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrice-harapeti-653288152/"><Icon.Linkedin/></a>
+        <a className="ProfileLink" target="_blank" rel="noreferrer" href="mailto:patrice.harapeti@gmail.com"><Icon.Mailbox/></a>
       </div>
       <Row>
         <Col sm={5}><Image className="ProfilePhoto" alt="Profile" src="profile.jpg" fluid/></Col>
@@ -28,4 +28,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-reportWebVitals();
+registerServiceWorker();
