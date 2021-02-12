@@ -4,6 +4,12 @@ import * as Icon from 'react-bootstrap-icons';
 function Sidepanel() {
   return (
     <div className="Sidepanel">
+      <div className="HomepageIcons" style={{display: 'flex'}}>
+        <a className="ProfileLink" target="_blank" rel="noreferrer" href="https://github.com/pharapeti"><Icon.Github/></a>
+        <a className="ProfileLink" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrice-harapeti-653288152/"><Icon.Linkedin/></a>
+        <a className="ProfileLink" target="_blank" rel="noreferrer" href="mailto:patrice.harapeti@gmail.com"><Icon.Mailbox/></a>
+      </div>
+
       <h2>Hey there, I'm Patrice!</h2>
       <i>Let's start something together</i>
       <br/>
