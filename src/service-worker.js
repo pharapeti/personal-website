@@ -1,6 +1,5 @@
+/* eslint-disable no-restricted-globals */
 const ignored = self.__WB_MANIFEST;
-
-console.log("Hello there!");
 
 var CACHE_NAME = 'personal-website-cache';
 var urlsToCache = [
