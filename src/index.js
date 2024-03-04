@@ -10,8 +10,11 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import { SpeedInsights } from '@vercel/speed-insights/react';
+
 ReactDOM.render(
   <React.StrictMode>
+    <SpeedInsights/>
     <div className="Container">
       <Row>
         <Col sm={6}><Image className="ProfilePhoto" alt="Profile" src="profile.jpg" fluid/></Col>
