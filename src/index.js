@@ -11,9 +11,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from "@vercel/analytics/react"
 
 ReactDOM.render(
   <React.StrictMode>
+    <Analytics/>
     <SpeedInsights/>
     <div className="Container">
       <Row>
